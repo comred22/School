@@ -1,0 +1,7 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'd:/Users/comre/Documents/TestVSCodefiles/Heap_Test'
+g++ -c -g main.cpp
+g++ -c -g Heap.cpp
+g++ main.o Heap.o -o a.exe
+make.exe: Leaving directory 'd:/Users/comre/Documents/TestVSCodefiles/Heap_Test'
+ 

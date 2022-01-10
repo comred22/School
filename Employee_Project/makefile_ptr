@@ -1,0 +1,13 @@
+a.exe: main.ptr.o Employee.o H_Employee.o S_Employee.o
+	g++ main.ptr.o Employee.o H_Employee.o S_Employee.o -o a.exe
+main.ptr.o: H_Employee.h S_Employee.h Employee.h main.ptr.cpp
+	g++ -g -c main.ptr.cpp
+H_Employee.o: Employee.h H_Employee.h H_Employee.cpp
+	g++ -g -c H_Employee.cpp
+S_Employee.o: Employee.h S_Employee.h S_Employee.cpp
+	g++ -g -c S_Employee.cpp
+Employee.o: Employee.h Employee.cpp
+	g++ -g -c Employee.cpp
+clean:
+	rm *.o
+	rm a.exe

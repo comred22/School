@@ -1,0 +1,10 @@
+H   135-34-1234 Sophia  William     DevOps          Contractor         40   70
+H   135-12-5462 Jacob   Smith       SecOps          Contractor         20   50
+H   252-68-6728 Emma    Miller      DevOps          Contractor         30   35
+H   237-88-1289 Mason   Jones       DevOps          Contractor         40   150
+H   581-54-4536 Jayden  Rogers      SecOps          Contractor         25   30
+H   501-77-9724 Mia     Cook        SecOps          Assistant          20   40
+H   408-26-8234 Choloe  Parks       DevOps          Assistant          20   35
+H   516-90-6524 Daniel  Zhang       DevOps          Contractor         40   40
+H   526-36-2435 Natalie Hancock     DevOps          Contractor         35   50 
+H   530-88-8245 Grace   Kim         SecOps          Contractor         30   40 
